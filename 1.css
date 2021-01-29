@@ -1,0 +1,132 @@
+* body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+.container {
+  background-color: rgb(85, 20, 116);
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+html {
+  font-family: sans-serif;
+}
+#main1 {
+  font-size: 1.1rem;
+  letter-spacing: 1.7px;
+  line-height: 1.35;
+  color: #ccc;
+  transition-delay: 150ms;
+  transition-duration: 850ms;
+  padding-bottom: 65px;
+}
+@media screen and (min-width: 401px) {
+.foot {
+  text-align: center;
+  color: #ccc;
+  transition-delay: 150ms;
+  transition-duration: 1350ms;
+}
+}
+/* footer {
+  font-size: 0.9em;
+  letter-spacing: 0.18rem;
+  margin-bottom: 4.5rem;
+  margin-top: 4rem;
+  text-align: center;
+
+  text-transform: uppercase;
+} */
+@media screen and (min-width: 901px) {
+#para {
+  font-size: 1.1rem;
+  letter-spacing: 1.7px;
+  line-height: 1.35;
+  color: #ccc;
+  transition-delay: 150ms;
+  transition-duration: 850ms;
+}
+}
+.para1 {
+  justify-content: center;
+}
+
+/* jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj */
+.menu {
+  font-weight: bold;
+  font-size: 50px;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0);
+  overflow-x: hidden;
+  transition: 1s;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 30px, 50px;
+  line-height: 1.9;
+  width: 80%;
+  margin-left: 10%;
+  text-align: justify;
+}
+#mar {
+  margin: 34px;
+}
+#top {
+  margin-left: 45px;
+}
+@media screen and (min-width: 301px) {
+#togg {
+  float: right;
+  font-size: 53px;
+}
+}
+
+#fo{
+  margin-top: 113px;
+}
+@media screen and (min-width: 405px) {
+#myNav{
+  width: auto;
+
+}
+}
+
