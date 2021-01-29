@@ -123,10 +123,4 @@ html {
 #fo{
   margin-top: 113px;
 }
-@media screen and (min-width: 405px) {
-#myNav{
-  width: auto;
-
-}
-}
 
